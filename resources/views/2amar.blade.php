@@ -14,7 +14,7 @@
     So much stuff you got to understand
 </h4>
 
-        <h2>For any step of any walk, any town of any thought...I'll be you guide...</h2>
+        <h2>For any step in any walk, any town of any thought...I'll be you guide...</h2>
         <h2>For every street of any scene...Any place you've never been...I'll be your guide</h2>
 <br>
 <h4>
