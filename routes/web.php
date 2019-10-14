@@ -22,3 +22,8 @@ Route::get('/website-info', function () {
 Route::get('/profile', function () {
     return view('profile');
 })->name('profile');
+
+Route::get('/2amar', function () {
+    return view('2amar');
+})->name('2amar');
+
