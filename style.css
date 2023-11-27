@@ -108,7 +108,6 @@ ul.navigation li {
 
 /* If you want to ensure that the navigation items don't get too wide */
 ul.navigation li {
-  max-width: 200px; /* Maximum width */
   flex: 1; /* Flex grow */
 }
 
