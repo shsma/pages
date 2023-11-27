@@ -79,7 +79,7 @@ function getRandomBall(){
                 vy: getRandomSpeed('top')[1],
                 r: R,
                 alpha: 1,
-                phase: randomNumFrom(0, 10)
+                phase: randomNumFrom(0, 20)
             }
             break;
         case 'right':
@@ -90,7 +90,7 @@ function getRandomBall(){
                 vy: getRandomSpeed('right')[1],
                 r: R,
                 alpha: 1,
-                phase: randomNumFrom(0, 10)
+                phase: randomNumFrom(0, 20)
             }
             break;
         case 'bottom':
@@ -101,7 +101,7 @@ function getRandomBall(){
                 vy: getRandomSpeed('bottom')[1],
                 r: R,
                 alpha: 1,
-                phase: randomNumFrom(0, 10)
+                phase: randomNumFrom(0, 20)
             }
             break;
         case 'left':
@@ -112,7 +112,7 @@ function getRandomBall(){
                 vy: getRandomSpeed('left')[1],
                 r: R,
                 alpha: 1,
-                phase: randomNumFrom(0, 10)
+                phase: randomNumFrom(0, 20)
             }
             break;
     }
@@ -193,7 +193,7 @@ function getDisOf(b1, b2){
 
 // add balls if there a little balls
 function addBallIfy(){
-    if(balls.length < 80){
+    if(balls.length < 100){
         balls.push(getRandomBall());
     }
 }
@@ -242,7 +242,7 @@ window.addEventListener('resize', function(e){
 
 function goMovie(){
     initCanvas();
-    initBalls(150);
+    initBalls(180);
     window.requestAnimationFrame(render);
 }
 goMovie();
